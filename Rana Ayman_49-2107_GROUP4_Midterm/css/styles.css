@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+body{
+    margin: 0px;
+    margin-left: 150px;
+    margin-right: 150px;
+    Background-image: url(../images/bckground.jpeg)
+}
+
+a{
+    color: blueviolet;
+    text-decoration: none;
+    margin-right: 50px;
+}
+
+/*HEADER*/
+header {
+    overflow: hidden;
+}
+
+header img {
+    width: 150px;
+    float:left;
+    margin-top: 0px;
+}
+
+header h2{
+    float:left;
+    margin-left: 30px;
+    margin-top: 130px;
+}
+
+header nav {
+    font-family: 'Ubuntu', sans-serif;
+    text-align: right;
+    margin-top: 140px;
+    margin-right: 30px;
+    word-spacing: 15px;
+}
+
+/*ASIDE*/
+aside{
+    text-align: center;
+}
+aside h1{
+    margin-bottom: 0px;
+    font-size: 60px;
+    color: crimson;
+}
+aside h3{
+    margin-top: 0px;
+    font-style: italic;
+}
+
+/*ABOUT US*/
+#aboutus section{
+    overflow: hidden;
+}
+
+#first{
+    background-color: rgb(250, 248, 242);
+}
+
+#second {
+    margin-top: 10px;
+    background-color: rgb(250, 248, 242);
+}
+
+#third {
+    margin-top: 10px;
+    background-color: rgb(250, 248, 242);
+}
+
+#aboutus img {
+    width: 250px;
+    
+    margin-right: 20px;
+}
+
+.name {
+    font-weight: bold;
+    font-size: 20px;
+}
+    
+#first img{
+    float: left;
+}
+#second img {
+    
+    float:right;
+    
+}
+
+#third img{
+    float: left;
+}
+
+/*REVIEWS*/
+#rev{
+    overflow: hidden;
+    margin-top: 70px; 
+    text-align: center;
+    
+}
+
+#client_1{
+    float: left;
+    margin-left: 100px;
+    font-size: 12px;
+    
+    
+}
+
+#client_2{
+    float: left;
+}
+
+#client_3{
+    float: left;
+}
+
+#client_4{
+    overflow: hidden;
+    width: 250px;
+}
+
+#reviews figcaption{
+    font-weight: bold;
+    margin-bottom: 0px;
+    font-size: 19px;
+}
+#reviews h6{
+    font-style: italic;
+    margin-top: 0px;
+}
+
+#nothing{
+    text-align: justify;
+    
+}
+#r{
+    text-align: center;
+    font-weight: bold;
+    color: blue;
+    font-family: cursive;
+}
+
+#nothing h6{
+    text-align: right;
+    font-weight: bold;
+    font-size: 15px;
+    color:blue;
+    font-family: cursive
+}
+
+#scroll {
+    position: fixed;
+    bottom: 0px;
+    right: 30px;
+}
+
+#animation{ 
+    color: crimson;
+    font-size: 120px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+}
+
+
+
+
